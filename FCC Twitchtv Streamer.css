@@ -1,0 +1,56 @@
+
+    .picture_frame{
+      border-color:#FFFFFF;
+      border-width:0px;
+      border-style:solid;
+      border-radius:60%;
+    }
+    .img_background{  
+      background-image: url("https://scontent-sea1-1.xx.fbcdn.net/hprofile-xpa1/v/t1.0-1/p160x160/10696390_1549957545237349_4398711097188775432_n.jpg?oh=51273e170949f01f2d47742bdd7c46bc&oe=57B39DA7"); 
+       
+    } 
+    
+    .displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    word-wrap: break-word;  
+    } 
+    
+    h1 { 
+     font-family: Lobster;
+     color: #002222;
+       text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15); 
+     }
+     
+     h4 { 
+     font-family: Lobster; 
+     color: #002222;
+     }
+  
+
+   .well{
+     background-image: url("https://image.freepik.com/free-vector/beige-vintage-background_73062.jpg");
+      border-color:#002222;
+        border-width:2px;
+      border-style:solid;
+      border-radius:5%;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+   .small-icon{
+    width: 20px;
+   }

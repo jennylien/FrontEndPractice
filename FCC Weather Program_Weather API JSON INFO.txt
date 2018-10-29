@@ -1,0 +1,96 @@
+//Copy of Weather API information 
+//   var url = "https://api.wunderground.com/api/" + weatherAPIkey + "/conditions/q/" + position.coords.latitude +"," + position.coords.longitude+".json";
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Calgary, Alberta",
+		"city":"Calgary",
+		"state":"AB",
+		"state_name":"Alberta",
+		"country":"CA",
+		"country_iso3166":"CA",
+		"zip":"00000",
+		"magic":"3",
+		"wmo":"71393",
+		"latitude":"51.000000",
+		"longitude":"-114.000000",
+		"elevation":"1053.00000000"
+		},
+		"observation_location": {
+		"full":"APRSWXNET, Calgary, AB",
+		"city":"APRSWXNET, Calgary",
+		"state":"AB",
+		"country":"CA",
+		"country_iso3166":"CA",
+		"latitude":"50.982498",
+		"longitude":"-114.038834",
+		"elevation":"3362 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"ME2194",
+		"observation_time":"Last Updated on April 19, 8:10 PM MDT",
+		"observation_time_rfc822":"Tue, 19 Apr 2016 20:10:00 -0600",
+		"observation_epoch":"1461118200",
+		"local_time_rfc822":"Tue, 19 Apr 2016 20:40:29 -0600",
+		"local_epoch":"1461120029",
+		"local_tz_short":"MDT",
+		"local_tz_long":"America/Edmonton",
+		"local_tz_offset":"-0600",
+		"weather":"Scattered Clouds",
+		"temperature_string":"76 F (24.4 C)",
+		"temp_f":76,
+		"temp_c":24.4,
+		"relative_humidity":"17%",
+		"wind_string":"From the ENE at 2 MPH Gusting to 12.0 MPH",
+		"wind_dir":"ENE",
+		"wind_degrees":59,
+		"wind_mph":2,
+		"wind_gust_mph":"12.0",
+		"wind_kph":3.2,
+		"wind_gust_kph":"19.3",
+		"pressure_mb":"1013",
+		"pressure_in":"29.91",
+		"pressure_trend":"+",
+		"dewpoint_string":"28 F (-2 C)",
+		"dewpoint_f":28,
+		"dewpoint_c":-2,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"76 F (24.4 C)",
+		"feelslike_f":"76",
+		"feelslike_c":"24.4",
+		"visibility_mi":"40.0",
+		"visibility_km":"64.4",
+		"solarradiation":"--",
+		"UV":"0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":" in ( mm)",
+		"precip_today_in":"",
+		"precip_today_metric":"--",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/global/stations/71393.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=ME2194",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=50.982498,-114.038834",
+		"nowcast":""
+	}
+}
